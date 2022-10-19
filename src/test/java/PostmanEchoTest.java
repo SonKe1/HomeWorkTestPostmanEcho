@@ -13,7 +13,7 @@ class PostmanEchoTest {
                 .post("/post")
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("Test data"))
+                .body("data", equalTo("Test  time"))
         ;
     }
 }
